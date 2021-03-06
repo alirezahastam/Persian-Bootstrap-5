@@ -1,5 +1,5 @@
 {
-  "name": "html",
+  "name": "Persian-Bootstrap-5",
   "displayName": "Persian-Bootstrap-5",
   "description": "Persian bootstrap for better performance of Iranians in the world",
   "version": "0.0.1",
@@ -19,7 +19,7 @@
     "snippets": [
       {
         "language": "html",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/main.code-snippets"
       }
     ]
   }
