@@ -8,3 +8,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial publication in 2021 by Alireza Mokhtari.
 - This plugin will be updated.
+
+
+## [0.0.2]
+
+- Updated Codes
+- fixed
