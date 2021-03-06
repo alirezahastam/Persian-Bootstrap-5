@@ -3,6 +3,8 @@
     "displayName": "Persian-Bootstrap-5",
     "description": "Persian bootstrap for better performance of Iranians in the world",
     "version": "0.0.1",
+    "publisher": "Alireza Mokhtari",
+    "icon": "bootstrap.png",
     "engines": {
         "vscode": "^1.54.0"
     },
