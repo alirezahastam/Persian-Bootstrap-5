@@ -1,0 +1,581 @@
+{
+  "bs5-container": {
+      "prefix": "bs5-container",
+      "body": [
+          "<div class=\"container\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد یک لایه که از طرفین مقداری فاصله دارند."
+  }, 
+  "bs5-container-fluid": {
+      "prefix": "bs5-container-fluid",
+      "body": [
+          "<div class=\"container-fluid\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد یک لایه که که تمام محدوده صفحه را در بر میگیرد."
+  },
+  "bs5-container-responsive": {
+      "prefix": "bs5-container-responsive",
+      "body": [
+          "<div class=\"container-${1:sm}\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد یک لایه که که تمام محدوده صفحه را در بر میگیرد و واکنش گرا است."
+  },
+  "bs5-row": {
+      "prefix": "bs5-row",
+      "body": [
+          "<div class=\"row\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد 1 ردیف برای ستون ها."
+  },
+  "bs5-col-1": {
+      "prefix": "bs5-col1",
+      "body": [
+          "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-1\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد 1 ستون  در حالت های مختلف."
+  },
+  "bs5-col-2": {
+      "prefix": "bs5-col2",
+      "body": [
+          "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-2\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد 2 ستون  در حالت های مختلف."
+  },
+  "bs5-col-3": {
+      "prefix": "bs5-col3",
+      "body": [
+          "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-3\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد 3 ستون  در حالت های مختلف."
+  },
+  "bs5-col-4": {
+      "prefix": "bs5-col4",
+      "body": [
+          "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-4\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد 4 ستون  در حالت های مختلف."
+  },
+  "bs5-col-5": {
+      "prefix": "bs5-col5",
+      "body": [
+          "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-5\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد 5 ستون  در حالت های مختلف."
+  },
+  "bs5-col-6": {
+      "prefix": "bs5-col6",
+      "body": [
+          "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-6\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد 6 ستون  در حالت های مختلف."
+  },
+  "bs5-col-7": {
+      "prefix": "bs5-col7",
+      "body": [
+          "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-7\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد 7 ستون  در حالت های مختلف."
+  },
+  "bs5-col-8": {
+      "prefix": "bs5-col8",
+      "body": [
+          "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-8\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد 8 ستون  در حالت های مختلف."
+  },
+  "bs5-col-9": {
+      "prefix": "bs5-col9",
+      "body": [
+          "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-9\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد 9 ستون  در حالت های مختلف."
+  },
+  "bs5-col-10": {
+      "prefix": "bs5-col10",
+      "body": [
+          "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-10\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد 10 ستون  در حالت های مختلف."
+  },
+  "bs5-col-11": {
+      "prefix": "bs5-col11",
+      "body": [
+          "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-11\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد 11 ستون  در حالت های مختلف."
+  },
+  "bs5-col-12": {
+      "prefix": "bs5-col12",
+      "body": [
+          "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-12\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد 12 ستون  در حالت های مختلف."
+  },
+  "bs5-col-auto": {
+      "prefix": "bs5-colauto",
+      "body": [
+          "<div class=\"col${1| ,-sm,-md,-lg,-xl,-xxl|}-auto\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد ستون خودکار عرض خود را تنظیم میکند و در حالت های مختلف میتوان به کار برد."
+  },
+  "bs5-img": {
+      "prefix": "bs5-img",
+      "body": "<img src=\"$2\" class=\"img-fluid${1: rounded}\" alt=\"$3\">$0",
+      "description": "ایجاد یک تصویر که حالت پیش فرض آن دایره ای شکل است."
+  },
+  "bs5-table": {
+      "prefix": "bs5-table",
+      "body": [
+          "<table class=\"table ${1| ,table-striped,table-hover,table-bordered,table-borderless,table-sm,table-light,table-dark|}\">",
+          "\t$0",
+          "</table>"
+      ],
+      "description": "ایجاد یک جدول"
+  },
+  "bs5-input": {
+      "prefix": "bs5-input",
+      "body": [
+          "<div class=\"mb-${1:3}\">",
+          "\t<label for=\"$4\" class=\"form-label\">$2</label>",
+          "\t<input class=\"form-control\" id=\"$4\" type=\"${3|text,email,date,number,password,search,tel,file,time|}\" placeholder=\"$5\" aria-label=\"$2\">",
+          "</div>"
+      ],
+      "description": "ایجاد یک ورودی همراه با لیبل برای معرفی آن"
+  },
+  "bs5-textarea": {
+      "prefix": "bs5-textarea",
+      "body": [
+          "<div class=\"mb-${1:3}\">",
+          "\t<label for=\"$3\" class=\"form-label\">$2</label>",
+          "\t<textarea class=\"form-control\" id=\"$3\" rows=\"${4:3}\" aria-label=\"$2\"></textarea>",
+          "</div>"
+      ],
+      "description": "ایجاد ویرایشگر متن پبش فرض"
+  },
+  "bs5-check": {
+      "prefix": ["bs5-check", "bs5-radio"],
+      "body": [
+          "<div class=\"form-check${1: form-check-inline}\">",
+          "\t<input class=\"form-check-input\" type=\"${2|checkbox,radio|}\" value=\"$3\" id=\"$5\">",
+          "\t<label class=\"form-check-label\" for=\"$5\">",
+          "\t\t$4",
+          "\t</label>",
+          "</div>"
+      ],
+      "description": "ایجاد ورودی از نوع چک باکس و رادیو"
+  },
+  "bs5-accordion": {
+      "prefix": "bs5-accordion",
+      "body": [
+          "<div class=\"accordion\" id=\"$1\">",
+          "\t<div class=\"accordion-item\">",
+          "\t\t<h2 class=\"accordion-header\" id=\"$2\">",
+          "\t\t\t<button class=\"accordion-button\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#$3\" aria-expanded=\"true\" aria-controls=\"$3\">",
+          "\t\t\t\t$4",
+          "\t\t\t</button>",
+          "\t\t</h2>",
+          "\t\t<div id=\"$3\" class=\"accordion-collapse collapse show\" aria-labelledby=\"$2\" data-bs-parent=\"#$1\">",
+          "\t\t\t<div class=\"accordion-body\">",
+          "\t\t\t\t$5",
+          "\t\t\t</div>",
+          "\t\t</div>",
+          "\t</div>",
+          "</div>",
+      ],
+      "description": "ایجاد آکاردیون"
+  },
+  "bs5-accordionitem": {
+      "prefix": "bs5-accordionitem",
+      "body": [
+          "<div class=\"accordion-item\">",
+          "\t<h2 class=\"accordion-header\" id=\"$1\">",
+          "\t\t<button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#$2\" aria-expanded=\"false\" aria-controls=\"$2\">",
+          "\t\t\t$3",
+          "\t\t</button>",
+          "\t</h2>",
+          "\t<div id=\"$2\" class=\"accordion-collapse collapse\" aria-labelledby=\"$1\" data-bs-parent=\"#$CLIPBOARD\">",
+          "\t\t<div class=\"accordion-body\">",
+          "\t\t\t$4",
+          "\t\t</div>",
+          "\t</div>",
+          "</div>",
+      ],
+      "description": "ایجاد آیتم های آکاردیون"
+  },
+  "bs5-alert": {
+      "prefix": "bs5-alert",
+      "body": [
+          "<div class=\"alert alert-${1|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"alert\">",
+          "\t$0",
+          "</div>"
+      ],
+      "description": "ایجاد اعلان"
+  },
+  "bs5-alertdismissable": {
+      "prefix": "bs5-alertdismissable",
+      "body": [
+          "<div class=\"alert alert-${1|primary,secondary,success,danger,warning,info,light,dark|} alert-dismissible fade${2: show}\" role=\"alert\">",
+          "\t$5",
+          "\t<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"${3:Close}\"></button>",
+          "</div>"
+      ],
+      "description": "ایجاد اعلان با قابلیت بسته شدن توسط کاربر"
+  },
+  "bs5-badge": {
+      "prefix": "bs5-badge",
+      "body": "<span class=\"badge bg-${1|primary,secondary,success,danger,warning,info,light,dark|}${2: text-dark}\">$3</span>",
+      "description": "ایجاد نشان"
+  },
+  "bs5-breadcrumb": {
+      "prefix": "bs5-breadcrumb",
+      "body": [
+          "<nav aria-label=\"breadcrumb\">",
+          "\t<ol class=\"breadcrumb\">",
+          "\t\t$1",
+          "\t</ol>",
+          "</div>"
+      ],
+      "description": "ایجاد مسیریاب سایت"
+  },
+  "bs5-breadcrumbitem": {
+      "prefix": "bs5-breadcrumbitem",
+      "body": "<li class=\"breadcrumb-item\"><a href=\"$2\">$1</a></li>",
+      "description": "ایجاد آیتم های مسیریابی"
+  },
+  "bs5-breadcrumbitemcurrent": {
+      "prefix": "bs5-breadcrumbitemcurrent",
+      "body": "<li class=\"breadcrumb-item active\" aria-current=\"page\">$1</li>",
+      "description": "ایجاد مسیر جاری مسیریابی"
+  },
+  "bs5-btn": {
+      "prefix": "bs5-btn",
+      "body": "<button type=\"${1|button,submit,reset|}\" class=\"btn btn-${2|primary,secondary,success,danger,warning,info,light,dark,link|}\">$3</button>",
+      "description": "ایجاد دکمه"
+  },
+  "bs5-btnlink": {
+      "prefix": "bs5-btnlink",
+      "body": "<a href=\"$3\" class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\">$2</a>",
+      "description": "ایجاد دکمه حالت لینک"
+  },
+  "bs5-btngroup": {
+      "prefix": "bs5-btngroup",
+      "body": [
+          "<div class=\"btn-group\" role=\"group\" aria-label=\"$1\">",
+          "\t$2",
+          "</div>"
+      ],
+      "description": "ایجاد دکمه گروهی"
+  },
+  "bs5-card": {
+      "prefix": "bs5-card",
+      "body": [
+          "<div class=\"card\">",
+          "\t$2",
+          "</div>"
+      ],
+      "description": "ایجاد کارت"
+  },
+  "bs5-cardheader": {
+      "prefix": "bs5-cardheader",
+      "body": [
+          "<div class=\"card-header\">",
+          "\t$2",
+          "</div>"
+      ],
+      "description": "ایجاد سربرگ برای کارت"
+  },
+  "bs5-cardbody": {
+      "prefix": "bs5-cardbody",
+      "body": [
+          "<div class=\"card-body\">",
+          "\t$2",
+          "</div>"
+      ],
+      "description": "ایجاد بدنه برای کارت"
+  },
+  "bs5-cardtitle": {
+      "prefix": "bs5-cardtitle",
+      "body": [
+          "<${1|h1,h2,h3,h4,h5,h6|} class=\"card-title\">",
+          "\t$2",
+          "</$1>"
+      ],
+      "description": "ایجاد عنوان یا تیتر برای کارت"
+  },
+  "bs5-cardsubtitle": {
+      "prefix": "bs5-cardsubtitle",
+      "body": [
+          "<${1|h1,h2,h3,h4,h5,h6|} class=\"card-subtitle mb-2 text-muted\">",
+          "\t$2",
+          "</$1>"
+      ],
+      "description": "ایجاد زیرنویس برای کارت"
+  },
+  "bs5-cardlink": {
+      "prefix": "bs5-cardlink",
+      "body": "<a href=\"$2\" class=\"card-link\">$1</a>",
+      "description": "ایجاد پیوند یا همان لینک کارت"
+  },
+  "bs5-cardimage": {
+      "prefix": "bs5-cardimage",
+      "body": "<img src=\"$1\" class=\"card-img-top\" alt=\"$2\">",
+      "description": "ایجاد تصویر برای کارت"
+  },
+  "bs5-cardtext": {
+      "prefix": "bs5-cardtext",
+      "body": "<p class=\"card-text\">$1</p>",
+      "description": "ایجاد متن برای کارت"
+  },
+  "bs5-closebtn": {
+      "prefix": "bs5-closebtn",
+      "body": "<button type=\"button\" class=\"btn-close\" aria-label=\"Close\"></button>$0"
+  },
+  "bs5-collapselink": {
+      "prefix": "bs5-collapselink",
+      "body": [
+          "<a class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" data-bs-toggle=\"collapse\" href=\"#${2:copy this value as collapse id}\" role=\"button\" aria-expanded=\"${3|false,true|}\" aria-controls=\"$2\">",
+          "\t$4",
+          "</a>"
+      ],
+      "description": "ایجاد لینک باز و بسته شونده"
+  },
+  "bs5-collapsebtn": {
+      "prefix": "bs5-collapsebtn",
+      "body": [
+          "<button class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|}\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#${2:copy this value as collapse id}\" aria-expanded=\"${3|false,true|}\" aria-controls=\"${2:copy this value as collapse id}\">",
+          "\t$4",
+          "</button>"
+      ],
+      "description": "ایجاد دکمه باز و بسته شونده"
+  },
+  "bs5-collapse": {
+      "prefix": "bs5-collapse",
+      "body": [
+          "<div class=\"collapse\" id=\"$CLIPBOARD\">",
+          "\t$1",
+          "</a>"
+      ],
+      "description": "ایجاد المنت باز و بسته شونده"
+  },
+  "bs5-dropdownbtn": {
+      "prefix": "bs5-dropdownbtn",
+      "body": [
+          "<div class=\"dropdown\">",
+          "\t<button class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|} dropdown-toggle\" type=\"button\" id=\"$2\" data-bs-toggle=\"dropdown\" aria-expanded=\"${3|false,true|}\">",
+          "\t\t$4",
+          "\t</button>",
+          "\t<ul class=\"dropdown-menu\" aria-labelledby=\"$2\">",
+          "\t\t$5",
+          "\t</ul>",
+          "</div>"
+      ],
+      "description": "ایجاد دکمه آبشاری همراه منو ساده"
+  },
+  "bs5-dropdownlink": {
+      "prefix": "bs5-dropdownlink",
+      "body": [
+          "<div class=\"dropdown\">",
+          "\t<a class=\"btn btn-${1|primary,secondary,success,danger,warning,info,light,dark,link|} dropdown-toggle\" href=\"#\" role=\"button\" id=\"$2\" data-bs-toggle=\"dropdown\" aria-expanded=\"${3|false,true|}\">",
+          "\t\t$4",
+          "\t</a>",
+          "\t<ul class=\"dropdown-menu\" aria-labelledby=\"$2\">",
+          "\t\t$5",
+          "\t</ul>",
+          "</div>"
+      ],
+      "description": "ایجاد لینک آبشازی همراه منو ساده"
+  },
+  "bs5-dropdownitem": {
+      "prefix": "bs5-dropdownitem",
+      "body": "<li><a class=\"dropdown-item\" href=\"$1\">$2</a></li>$0",
+      "description": "ایجاد آیتم های منو آبشاری"
+  },
+  "bs5-listgroup": {
+      "prefix": "bs5-listgroup",
+      "body": [
+          "<ul class=\"list-group${1:  list-group-flush}\">",
+          "\t<li class=\"list-group-item\">$2</li>",
+          "</ul>"
+      ],
+      "description": "ایجاد لیست گروهی"
+  },
+  "bs5-listgrouplink": {
+      "prefix": "bs5-listgrouplink",
+      "body": [
+          "<div class=\"list-group ${1:  list-group-flush}\">",
+          "\t<a href=\"$3\" class=\"list-group-item list-group-item-action\">$2</a>",
+          "</div>"
+      ],
+      "description": "ایجاد لیست گروهی دارای لینک"
+  },
+  "bs5-listgroupitem": {
+      "prefix": "bs5-listgroupitem",
+      "body": "<li class=\"list-group-item\">$1</li>$0",
+      "description": "ایجاد آیتم برای لیست گروهی"
+  },
+  "bs5-listgroupitemlink": {
+      "prefix": "bs5-listgroupitemlink",
+      "body": "<a href=\"$2\" class=\"list-group-item list-group-item-action\">$1</a>$0",
+      "description": "ایجاد لینک برای لیست گروهی"
+  },
+  "bs5-modal": {
+      "prefix": "bs5-modal",
+      "body": [
+          "<div class=\"modal fade\" id=\"$1\" tabindex=\"-1\" aria-labelledby=\"$1Label\" aria-hidden=\"true\">",
+          "\t<div class=\"modal-dialog\">",
+          "\t\t<div class=\"modal-content\">",
+          "\t\t\t<div class=\"modal-header\">",
+          "\t\t\t\t<h5 class=\"modal-title\" id=\"$1Label\">$2</h5>",
+          "\t\t\t\t<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button>",
+          "\t\t\t</div>",
+          "\t\t\t<div class=\"modal-body\">",
+          "\t\t\t\t$3",
+          "\t\t\t</div>",
+          "\t\t\t<div class=\"modal-footer\">",
+          "\t\t\t\t<button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">${4:CLose}</button>",
+          "\t\t\t\t<button type=\"button\" class=\"btn btn-primary\">${5:Save changes}</button>",
+          "\t\t\t</div>",
+          "\t\t</div>",
+          "\t</div>",
+          "</div>"
+      ],
+      "description": "ایجاد Modal"
+  },
+  "bs5-nav": {
+      "prefix": "bs5-nav",
+      "body": [
+          "<ul class=\"nav ${1| ,nav-tabs,nav-pills,nav-fill,nav-justified,flex-column|}\">",
+          "\t<li class=\"nav-item\">",
+          "\t\t<a class=\"nav-link${2: active}\" href=\"$3\">$4</a>$0",
+          "\t</li>",
+          "</ul>"
+      ],
+      "description": "ایجاد Nav"
+  },
+  "bs5-navitem": {
+      "prefix": "bs5-navitem",
+      "body": [
+          "<li class=\"nav-item\">",
+          "\t<a class=\"nav-link\" href=\"$1\">$2</a>$0",
+          "</li>",
+      ],
+      "description": "ایجاد آیتم برای Nav"
+  },
+  "bs5-pagination": {
+      "prefix": "bs5-pagination",
+      "body": [
+          "<nav aria-label=\"$1\">",
+          "\t<ul class=\"pagination\">",
+          "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">${2:Previous}</a></li>",
+          "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">1</a></li>",
+          "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">2</a></li>",
+          "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">3</a></li>",
+          "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">${3:Next}</a></li>",
+          "\t</ul>",
+          "</nav>",
+      ],
+      "description": "ایجاد صفحه بندی"
+  },
+  "bs5-paginationicons": {
+      "prefix": "bs5-paginationicons",
+      "body": [
+          "<nav aria-label=\"$1\">",
+          "\t<ul class=\"pagination\">",
+          "\t\t<li class=\"page-item\">",
+          "\t\t\t<a class=\"page-link\" href=\"#\" aria-label=\"${1:Previous}\">",
+          "\t\t\t\t<span aria-hidden=\"true\">&laquo;</span>",
+          "\t\t\t</a>",
+          "\t\t</li>",
+          "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">1</a></li>",
+          "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">2</a></li>",
+          "\t\t<li class=\"page-item\"><a class=\"page-link\" href=\"#\">3</a></li>",
+          "\t\t<li class=\"page-item\">",
+          "\t\t\t<a class=\"page-link\" href=\"#\" aria-label=\"${2:Next}\">",
+          "\t\t\t\t<span aria-hidden=\"true\">&raquo;</span>",
+          "\t\t\t</a>",
+          "\t\t</li>",
+          "\t</ul>",
+          "</nav>",
+      ],
+      "description": "ایجاد آیکون برای صفحه بندی"
+  },
+  "bs5-progressbar": {
+      "prefix": "bs5-progressbar",
+      "body": [
+          "<div class=\"progress\">",
+          "\t<div class=\"progress-bar bg-${1|primary,secondary,success,danger,warning,info,light,dark|}${2: progress-bar-striped}\" role=\"progressbar\" style=\"width: $3%;\" aria-valuenow=\"$3\" aria-valuemin=\"0\" aria-valuemax=\"100\">$3%</div>",
+          "</div>",
+      ],
+      "description": "ایجاد نوار پیشرفت"
+  },
+  "bs5-spiner": {
+      "prefix": "bs5-spiner",
+      "body": [
+          "<div class=\"spinner-${1|border,grow|} text-${2|primary,secondary,success,danger,warning,info,light,dark|}\" role=\"status\">",
+          "\t<span class=\"visually-hidden\">${3:Loading...}</span>",
+          "</div>",
+      ],
+      "description": "ایجاد چرخنده"
+  },
+  "bs5-toast": {
+      "prefix": "bs5-toast",
+      "body": [
+          "<div class=\"toast\" role=\"alert\" aria-live=\"assertive\" aria-atomic=\"true\">",
+          "\t<div class=\"toast-header\">",
+          "\t\t<img src=\"${1:...}\" class=\"rounded me-2\" alt=\"${2:...}\">",
+          "\t\t<strong class=\"me-auto\">${3:Bootstrap}</strong>",
+          "\t\t<small>${4:11 mins ago}</small>",
+          "\t\t<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"toast\" aria-label=\"${5:Close}\"></button>",
+          "\t</div>",
+          "\t<div class=\"toast-body\">",
+          "\t\t${6:Hello, world! This is a toast message.}",
+          "\t</div>",
+          "</div>",
+      ],
+      "description": "ایجاد Toast"
+  },
+  "bs5-coloredlink": {
+      "prefix": "bs5-coloredlink",
+      "body": "<a href=\"#$3\" class=\"link-${1|primary,secondary,success,danger,warning,info,light,dark|}\">$2</a>$0",
+        "description": "ایجاد لینک یا همان پیوند رنگی"
+  },
+  "bs5-ratio": {
+      "prefix": "bs5-ratio",
+      "body": "<div class=\"ratio ratio-${1|1x1,4x3,16x9,21x9|}\">$0</div>",
+      "description": "ایجاد نسبت"
+  },
+}
