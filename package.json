@@ -20,10 +20,6 @@
       {
         "language": "html",
         "path": "./snippets/snippets.code-snippets"
-      },
-      {
-        "language": "html",
-        "path": "./snippets/Accordion.code-snippets"
       }
     ]
   }
