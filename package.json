@@ -1,26 +1,26 @@
 {
-    "name": "html",
-    "displayName": "Persian-Bootstrap-5",
-    "description": "Persian bootstrap for better performance of Iranians in the world",
-    "version": "0.0.1",
-    "publisher": "Alireza Mokhtari",
-    "icon": "bootstrap.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/attackeralireza/Persian-Bootstrap-5"
-    },
-    "engines": {
-        "vscode": "^1.54.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "html",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ]
-    }
+  "name": "html",
+  "displayName": "Persian-Bootstrap-5",
+  "description": "Persian bootstrap for better performance of Iranians in the world",
+  "version": "0.0.1",
+  "publisher": "Alireza Mokhtari",
+  "icon": "bootstrap.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/attackeralireza/Persian-Bootstrap-5"
+  },
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
 }
