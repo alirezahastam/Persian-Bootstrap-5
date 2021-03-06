@@ -4,6 +4,7 @@ All notable changes to the "html" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.0.1]
 
-- Initial release
+- Initial publication in 2021 by Alireza Mokhtari.
+- This plugin will be updated.
