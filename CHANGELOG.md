@@ -14,3 +14,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Updated Codes
 - fixed
+
+
+## [0.0.3]
+
+- Add Starter template CDN
+- Add Starter template RTL
+- Add Row Gutter
+- Add Headings
+- Add Display Headings
+- Add Blockquotes
+- Add Lead
+- Refactor Codes
