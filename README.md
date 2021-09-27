@@ -7,8 +7,7 @@
 # snippets
 
 - bs5-container
-    - bs5-container-fluid
-    - bs5-container-responsive
+ 
 - bs5-row
     - bs5-col-1
     - bs5-col-2
