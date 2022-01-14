@@ -144,7 +144,10 @@
     ],
     "description": "فیگور"
   },
-  //   Forms
+  /*
+    #### Start Form Component 
+  */
+
   //   ##Inputs
   "ساخت فرم آماده": {
     "prefix": "bsgf",
@@ -208,12 +211,160 @@
     "description": "Bootstrap Checks and Radios"
   },
   //   Ranges
-  "محدوده":{
-      "prefix": "bsrg",
-      "body": [
-        "<label for=\"$5\" class=\"form-label\">${1:عنوان تست}</label>",
-        "<input type=\"range\" class=\"form-range\" min=\"${2:0}\" max=\"${3:5}\" step=\"${4:0.5}\" id=\"${5:id}\">"
-      ],
-      "description": "Bootsrap Ranges"
+  "محدوده": {
+    "prefix": "bsrg",
+    "body": [
+      "<label for=\"$5\" class=\"form-label\">${1:عنوان تست}</label>",
+      "<input type=\"range\" class=\"form-range\" min=\"${2:0}\" max=\"${3:5}\" step=\"${4:0.5}\" id=\"${5:id}\">"
+    ],
+    "description": "Bootsrap Ranges"
+  },
+  // input group
+  "ورودی گروهی": {
+    "prefix": "bsig",
+    "body": [
+      "<div class=\"input-group ${1|flex-nowrap|} input-group${2|-sm,-lg|}\">",
+      "<span class=\"input-group-text\" id=\"${3:check1}\">@</span>",
+      "<input type=\"text\" class=\"form-control\" placeholder=\"${4:نام کاربری}\" aria-label=\"$4\" aria-describedby=\"$3\">",
+      "</div>"
+    ],
+    "description": "Bootsrap Input Group"
+  },
+  // input group => Checkboxes and Radios
+  "ورودی گروهی - چک باکس": {
+    "prefix": "bsigcr",
+    "body": [
+      "<div class=\"input-group input-group${1|-sm,-lg|}\">",
+      "div class=\"input-group-text\">",
+      "<input class=\"form-check-input mt-0\" type=\"${2|checkbox,radio|}\" value=\"\" aria-label=\"این یک متن برای افراد نابینا یا کم بینا باید تنظیم شود\">",
+      "</div>",
+      "<input type=\"text\" class=\"form-control\" aria-label=\"این یک متن برای افراد نابینا یا کم بینا باید تنظیم شود\">",
+      "</div>"
+    ],
+    "description": "Bootsrap Input Group / Checkboxes and radios"
+  },
+  "ورودی گروهی - چندتایی": {
+    "prefix": "bsigmi",
+    "body": [
+      "<div class=\"input-group\">",
+      "<span class=\"input-group-text\">نام و فامیلی</span>",
+      "<input type=\"text\" aria-label=\"نام\" class=\"form-control\">",
+      "<input type=\"text\" aria-label=\"فامیل\" class=\"form-control\">",
+      "</div>"
+    ],
+    "description": "Bootsrap Input Group / Multiple inputs"
+  },
+  "ورودی گروهی - افزونه ها": {
+    "prefix": "bsigma",
+    "body": [
+      "<div class=\"input-group\">",
+      "<span class=\"input-group-text\">ريال</span>",
+      "<span class=\"input-group-text\">0.00</span>",
+      "<input type=\"text\" class=\"form-control\" aria-label=\"متن تست\">",
+      "</div>"
+    ],
+    "description": "Bootsrap Input Group / Multiple addons"
+  },
+  "ورودی گروهی -  دکمه افزودن": {
+    "prefix": "bsigba",
+    "body": [
+      "<div class=\"input-group\">",
+      "<button class=\"btn btn-outline-secondary\" type=\"button\" id=\"${1:id}\">\t$0</button>",
+      "<input type=\"text\" class=\"form-control\" placeholder=\"\" aria-label=\"این یک متن تست است\" aria-describedby=\"$1\">",
+      "</div>"
+    ],
+    "description": "Bootsrap Input Group / Button addons"
+  },
+  // Floating labels
+  "برچسب های شناور": {
+    "prefix": "bsigba",
+    "body": [
+      " <div class=\"form-floating\">",
+      "<input type=\"email\" class=\"form-control ${2|is-invalid|}\" id=\"${1:id}\" placeholder=\"name@example.com\">",
+      "<label for=\"$1\">این یک متن تست است</label>",
+      "</div>"
+    ],
+    "description": "Bootsrap Floating labels"
+  },
+  // !! TODO Validate Form
+  /*
+#### End Form Component
+*/
+
+  /*
+#### Start Accordion Component
+*/
+  "آکاردیون": {
+    "prefix": "bsac",
+    "body": [
+      "<div class=\"accordion ${1:accordion-flush}\" id=\"${2:id}\">",
+      "<div class=\"accordion-item\">",
+      "<h2 class=\"accordion-header\" id=\"flush-headingOne\">",
+      "<button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#flush-collapseOne\" aria-expanded=\"false\" aria-controls=\"flush-collapseOne\">",
+      "مورد #1",
+      "</button>",
+      "</h2>",
+      "<div id=\"flush-collapseOne\" class=\"accordion-collapse collapse\" aria-labelledby=\"flush-headingOne\" data-bs-parent=\"#$2\">",
+      "<div class=\"accordion-body\">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</div>",
+      "</div>",
+      "</div>",
+      "<div class=\"accordion-item\">",
+      "<h2 class=\"accordion-header\" id=\"flush-headingTwo\">",
+      "<button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#flush-collapseTwo\" aria-expanded=\"false\" aria-controls=\"flush-collapseTwo\">",
+      "مورد #2",
+      "</button>",
+      "</h2>",
+      "<div id=\"flush-collapseTwo\" class=\"accordion-collapse collapse\" aria-labelledby=\"flush-headingTwo\" data-bs-parent=\"#$2\">",
+      "<div class=\"accordion-body\">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</div>",
+      "</div>",
+      "</div>",
+      "<div class=\"accordion-item\">",
+      "<h2 class=\"accordion-header\" id=\"flush-headingThree\">",
+      "<button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#flush-collapseThree\" aria-expanded=\"false\" aria-controls=\"flush-collapseThree\">",
+      "مورد #3",
+      "</button>",
+      "</h2>",
+      "<div id=\"flush-collapseThree\" class=\"accordion-collapse collapse\" aria-labelledby=\"flush-headingThree\" data-bs-parent=\"#$2\">",
+      "<div class=\"accordion-body\">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</div>",
+      "</div>",
+      "</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap Accordion"
+  },
+  /*
+#### End Accordion Component
+#### Start Alert Component
+*/
+  "هشدار": {
+    "prefix": "bsal",
+    "body": [
+      "<div class=\"alert alert${1|-primary,-secondary,-success,-danger,-warning,-info,-light,-dark|}\" role=\"alert\">",
+      "${2:این یک متن تست است}",
+      "</div>"
+    ],
+    "description": "Bootstrap Alert"
+  },
+  "هشدار - Live": {
+    "prefix": "bsall",
+    "body": [
+      "<div id=\"liveAlertPlaceholder\"></div>",
+      "<button type=\"button\" class=\"btn btn-primary\" id=\"liveAlertBtn\">نمایش زنده هشدار</button>",
+      "<script>",
+      "var alertPlaceholder = document.getElementById('liveAlertPlaceholder')",
+      "var alertTrigger = document.getElementById('liveAlertBtn')",
+      "function alert(message, type) {",
+      "var wrapper = document.createElement('div')",
+      "wrapper.innerHTML = '<div class=\"alert alert-' + type + ' alert-dismissible\" role=\"alert\">' + message + '<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button></div>'",
+      "alertPlaceholder.append(wrapper)}",
+      "if (alertTrigger) {",
+      "alertTrigger.addEventListener('click', function () {",
+      "alert('Nice, you triggered this alert message!', 'success')})}",
+      "</script>"
+    ],
+    "description": "Bootstrap Alert / Live"
   }
+  /*
+#### End Alert Component
+*/
 }
