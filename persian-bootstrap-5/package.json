@@ -1,0 +1,20 @@
+{
+    "name": "persian-bootstrap-5",
+    "displayName": "PERSIAN-BOOTSTRAP-5",
+    "description": "a snippet code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
