@@ -363,8 +363,21 @@
       "</script>"
     ],
     "description": "Bootstrap Alert / Live"
-  }
+  },
+  "هشدار - با قابلیت بسته شدن": {
+    "prefix": "bsald",
+    "body": [
+      "<div class=\"alert alert${1|-primary,-secondary,-success,-danger,-warning,-info,-light,-dark|} alert-dismissible fade show\" role=\"alert\">",
+      "${2:<strong>Holy guacamole!</strong> You should check in on some of those fields below.}",
+      "<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>",
+      "</div>"
+    ],
+    "description": "Bootstrap Alert / Dismissing"
+  },
   /*
 #### End Alert Component
 */
+// #### Alert Badges
+"":{}
+// #### End Alert Badges
 }
